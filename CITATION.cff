@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Thaufiq"
     given-names: "Md."
-    # affiliation: "Bangladesh Agricultural University"
+    affiliation: "Bangladesh Agricultural University"
     
 version: 1.0.0
 date-released: 2026-11-18
