@@ -97,8 +97,7 @@ and documents each step. Findings here should be read together with, not instead
 
 **This project** — GitHub's *"Cite this repository"* button (from [`CITATION.cff`](CITATION.cff)) gives APA and BibTeX. Manually:
 
-> Thaufiq, M. (2026). *Splotchy-face GWAS in cattle: reanalysis of public data identifies a single locus at MITF*
-> (Version 1.0.0) [Computer software]. GitHub. https://github.com/Thaufiq2004/cattle-splotchy-face-gwas
+Thaufiq, M. (2026). Splotchy-face GWAS in cattle: reanalysis of public data identifies a single locus at MITF (Version 1.0.0) [Computer software]. https://github.com/Thaufiq2004/cattle-splotchy-face-gwas
 
 ```bibtex
 @software{thaufiq2026splotchy,
