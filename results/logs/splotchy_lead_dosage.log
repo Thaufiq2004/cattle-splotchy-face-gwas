@@ -1,0 +1,26 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc
+  --chr-set 29
+  --export A
+  --out results/qc/splotchy_lead_dosage
+  --pheno data/processed/splotchy_pheno_plink.txt
+  --pheno-name Splotchy
+  --snp 22_31651379
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 07:21:02 2026
+
+Random number seed: 1792027262
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc.fam.
+35048 variants loaded from data/processed/splotchy_qc.bim.
+1 binary phenotype loaded (34 cases, 90 controls).
+--snp: 1 variant remaining.
+1 variant remaining after main filters.
+--export A: results/qc/splotchy_lead_dosage.raw written.
+
+End time: Thu Oct 15 07:21:02 2026

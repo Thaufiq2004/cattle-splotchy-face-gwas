@@ -1,0 +1,27 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc_unique
+  --chr-set 29
+  --extract results/qc/splotchy_prune.prune.in
+  --make-king-table
+  --out results/qc/splotchy_king
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 08:16:50 2026
+
+Random number seed: 1792030610
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc_unique.fam.
+35048 variants loaded from data/processed/splotchy_qc_unique.bim.
+Note: No phenotype data present.
+--extract: 17827 variants remaining.
+17827 variants remaining after main filters.
+--make-king-table pass 1/1: Scanning for rare variants... done.
+507 variants handled by initial scan (17320 remaining).
+--make-king-table: 17827 variants processed.
+Results written to results/qc/splotchy_king.kin0 .
+
+End time: Thu Oct 15 08:16:50 2026

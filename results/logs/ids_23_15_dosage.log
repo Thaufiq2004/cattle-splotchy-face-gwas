@@ -1,0 +1,25 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc_unique
+  --chr-set 29
+  --export A
+  --keep /dev/fd/11
+  --out results/qc/ids_23_15_dosage
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 09:29:47 2026
+
+Random number seed: 1792034987
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc_unique.fam.
+35048 variants loaded from data/processed/splotchy_qc_unique.bim.
+Note: No phenotype data present.
+--keep: 2 samples remaining.
+2 samples (0 females, 0 males, 2 ambiguous; 2 founders) remaining after main
+filters.
+--export A: results/qc/ids_23_15_dosage.raw written.
+
+End time: Thu Oct 15 09:29:47 2026

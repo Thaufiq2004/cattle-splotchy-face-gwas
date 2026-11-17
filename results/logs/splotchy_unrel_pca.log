@@ -1,0 +1,33 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc_unique
+  --chr-set 29
+  --extract results/qc/splotchy_prune.prune.in
+  --keep results/qc/splotchy_unrel.king.cutoff.in.id
+  --out results/qc/splotchy_unrel_pca
+  --pca 5
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Tue Oct 20 01:31:05 2026
+
+Random number seed: 1792438265
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc_unique.fam.
+35048 variants loaded from data/processed/splotchy_qc_unique.bim.
+Note: No phenotype data present.
+--extract: 17827 variants remaining.
+--keep: 94 samples remaining.
+94 samples (0 females, 0 males, 94 ambiguous; 94 founders) remaining after main
+filters.
+Calculating allele frequencies... done.
+17827 variants remaining after main filters.
+Constructing GRM: done.
+Correcting for missingness... done.
+Extracting eigenvalues and eigenvectors... done.
+--pca: Eigenvectors written to results/qc/splotchy_unrel_pca.eigenvec , and
+eigenvalues written to results/qc/splotchy_unrel_pca.eigenval .
+
+End time: Tue Oct 20 01:31:05 2026

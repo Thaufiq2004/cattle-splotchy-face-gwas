@@ -1,0 +1,34 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc
+  --chr-set 29
+  --freq
+  --hardy
+  --missing
+  --out results/qc/splotchy_lead_snp
+  --snp 22_31651379
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 07:12:31 2026
+
+Random number seed: 1792026751
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc.fam.
+35048 variants loaded from data/processed/splotchy_qc.bim.
+Note: No phenotype data present.
+--snp: 1 variant remaining.
+Calculating sample missingness rates... done.
+Calculating allele frequencies... done.
+--freq: Allele frequencies (founders only) written to
+results/qc/splotchy_lead_snp.afreq .
+--missing: Sample missing data report written to
+results/qc/splotchy_lead_snp.smiss .
+--missing: Variant missing data report written to
+results/qc/splotchy_lead_snp.vmiss .
+--hardy: Autosomal Hardy-Weinberg report (founders only) written to
+results/qc/splotchy_lead_snp.hardy .
+
+End time: Thu Oct 15 07:12:31 2026

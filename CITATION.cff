@@ -1,0 +1,89 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below, and also cite the original study and dataset listed under references."
+title: "Splotchy-face GWAS in cattle: reanalysis of public data identifies a single locus at MITF"
+type: software
+authors:
+  - family-names: "Thaufiq"
+    given-names: "Md."
+    # affiliation: "YOUR INSTITUTION"                      # TODO: add (optional)
+    # orcid: "https://orcid.org/0000-0000-0000-0000"       # TODO: add (recommended)
+version: 1.0.0
+date-released: 2026-11-18
+repository-code: "https://github.com/YOUR-USERNAME/cattle-splotchy-face-gwas"   # TODO: replace after creating the repo
+# doi: "10.5281/zenodo.XXXXXXX"                            # TODO: add after Zenodo archiving (see README)
+license: MIT
+keywords:
+  - GWAS
+  - cattle
+  - splotchy face
+  - coat colour
+  - MITF
+  - PLINK 2
+  - Firth regression
+abstract: >-
+  Independent reanalysis of a public genotype and phenotype dataset (128 Hereford-cross calves, 41,534 SNPs)
+  for the splotchy-face coat phenotype in cattle, using Firth logistic regression in PLINK 2 with
+  principal-component adjustment. Thirty-seven genome-wide significant SNPs on chromosome 22 (31.57-32.42 Mb) form
+  a single LD clump that includes the pigmentation gene MITF. Robustness is assessed by duplicate-sample removal,
+  genomic control and removal of related animals.
+references:
+  - type: article
+    title: "Structural and epistatic regulatory variants cause hallmark white spotting in cattle"
+    authors:
+      - {family-names: Jivanji, given-names: Swati}
+      - {family-names: Wilkinson, given-names: Emma}
+      - {family-names: Tang, given-names: Lijing}
+      - {family-names: Tiplady, given-names: Kathryn M.}
+      - {family-names: Yeates, given-names: Anna}
+      - {family-names: Harland, given-names: Chad}
+      - {family-names: Gray, given-names: Charlotte}
+      - {family-names: Couldrey, given-names: Christine}
+      - {family-names: Worth, given-names: Gemma}
+      - {family-names: Gamache, given-names: Isabelle}
+      - {family-names: Desjardins, given-names: Jade}
+      - {family-names: Tabares, given-names: John A. A.}
+      - {family-names: Yamanaka, given-names: Nobuko}
+      - {family-names: McNaughton, given-names: Lorna}
+      - {family-names: Brennan, given-names: Louise}
+      - {family-names: Cloutier, given-names: Marie-Pier}
+      - {family-names: Cowan, given-names: Mitra}
+      - {family-names: Ellison, given-names: Renae}
+      - {family-names: Fransen, given-names: Tony}
+      - {family-names: Monehan, given-names: Tracey}
+      - {family-names: Spelman, given-names: Richard J.}
+      - {family-names: Snell, given-names: Russell G.}
+      - {family-names: Charlier, given-names: Carole}
+      - {family-names: Yamanaka, given-names: Yojiro}
+      - {family-names: Garrick, given-names: Dorian}
+      - {family-names: Mort, given-names: Richard}
+      - {family-names: Littlejohn, given-names: Mathew D.}
+    journal: "Science Advances"
+    volume: "11"
+    issue: "46"
+    start: "eadt5913"
+    year: 2025
+    doi: "10.1126/sciadv.adt5913"
+  - type: dataset
+    title: "Data from: Structural and epistatic regulatory variants cause hallmark white spotting in cattle"
+    # TODO: check the author list and year against the "Cite" box on the Dryad page before release
+    authors:
+      - {family-names: Jivanji, given-names: Swati}
+      - {family-names: Littlejohn, given-names: Mathew D.}
+    year: 2025
+    publisher:
+      name: Dryad
+    doi: "10.5061/dryad.fxpnvx15q"
+  - type: article
+    title: "Second-generation PLINK: rising to the challenge of larger and richer datasets"
+    authors:
+      - {family-names: Chang, given-names: Christopher C.}
+      - {family-names: Chow, given-names: Carson C.}
+      - {family-names: Tellier, given-names: Laurent C. A. M.}
+      - {family-names: Vattikuti, given-names: Shashaank}
+      - {family-names: Purcell, given-names: Shaun M.}
+      - {family-names: Lee, given-names: James J.}
+    journal: "GigaScience"
+    volume: "4"
+    start: "7"
+    year: 2015
+    doi: "10.1186/s13742-015-0047-8"

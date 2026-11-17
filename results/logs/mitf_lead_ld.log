@@ -1,0 +1,68 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc
+  --chr-set 29
+  --ld 22_31651379 22_31651404
+  --out results/qc/mitf_lead_ld
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 07:35:12 2026
+
+Random number seed: 1792028112
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc.fam.
+35048 variants loaded from data/processed/splotchy_qc.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+
+--ld 22_31651379 22_31651404:
+
+22_31651379 alleles:
+  MAJOR = REF = A
+  MINOR = G
+22_31651404 alleles:
+  MAJOR = REF = A
+  MINOR = G
+
+124 valid samples; 34 het pairs statistically phased.
+Multiple phasing solutions; sample size, HWE, or random mating assumption may
+be violated.
+
+HWE exact test p-values
+-----------------------
+  22_31651379: 0.124175
+  22_31651404: 0.0727764
+
+Solution #1:
+  r^2 = 0.0269794    |D'| = 1
+
+        Frequencies      :            22_31651404
+  (expectations under LE)          MAJOR       MINOR
+                                 ----------  ----------
+                           MAJOR  0.717742    0.145161
+                                 (0.737643)  (0.125260)
+               22_31651379
+                           MINOR  0.137097    0
+                                 (0.117196)  (0.019901)
+
+  Major alleles are out of phase with each other.
+
+Solution #2 (best likelihood):
+  r^2 = 0.935618    |D'| = 1
+
+        Frequencies      :            22_31651404
+  (expectations under LE)          MAJOR       MINOR
+                                 ----------  ----------
+                           MAJOR  0.854839    0.008065
+                                 (0.737643)  (0.125260)
+               22_31651379
+                           MINOR  0           0.137097
+                                 (0.117196)  (0.019901)
+
+  Major alleles are in phase with each other.
+
+
+End time: Thu Oct 15 07:35:12 2026

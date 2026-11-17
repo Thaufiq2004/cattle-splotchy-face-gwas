@@ -1,0 +1,25 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile results/qc/splotchy_lead_subset
+  --chr-set 29
+  --glm hide-covar allow-no-covars
+  --out results/qc/splotchy_lead_check
+  --pheno data/processed/splotchy_pheno_plink.txt
+  --pheno-name Splotchy
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 07:15:54 2026
+
+Random number seed: 1792026954
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+results/qc/splotchy_lead_subset.fam.
+1 variant loaded from results/qc/splotchy_lead_subset.bim.
+1 binary phenotype loaded (34 cases, 90 controls).
+Calculating allele frequencies... done.
+--glm logistic-Firth hybrid regression on phenotype 'Splotchy': done.
+Results written to results/qc/splotchy_lead_check.Splotchy.glm.logistic.hybrid .
+
+End time: Thu Oct 15 07:15:54 2026

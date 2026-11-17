@@ -1,0 +1,35 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc_unique
+  --chr-set 29
+  --covar data/processed/splotchy_pcs.txt
+  --covar-name PC1,PC2,PC3
+  --glm hide-covar
+  --out results/association/splotchy_gwas_no15_23
+  --pheno data/processed/splotchy_pheno_plink.txt
+  --pheno-name Splotchy
+  --remove /dev/fd/11
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 09:35:25 2026
+
+Random number seed: 1792035325
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc_unique.fam.
+35048 variants loaded from data/processed/splotchy_qc_unique.bim.
+1 binary phenotype loaded (34 cases, 90 controls).
+--remove: 122 samples remaining.
+3 covariates loaded from data/processed/splotchy_pcs.txt.
+122 samples (0 females, 0 males, 122 ambiguous; 122 founders) remaining after
+main filters.
+33 cases and 89 controls remaining after main filters.
+Calculating allele frequencies... done.
+Warning: --glm remaining case count is less than 10x predictor count for
+phenotype 'Splotchy'.
+--glm logistic-Firth hybrid regression on phenotype 'Splotchy': done.
+Results written to results/association/splotchy_gwas_no15_23.Splotchy.glm.logistic.hybrid .
+
+End time: Thu Oct 15 09:35:26 2026

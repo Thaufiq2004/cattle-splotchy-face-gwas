@@ -1,0 +1,24 @@
+# macOS / editor / Python junk
+.DS_Store
+__MACOSX/
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large or third-party inputs are not committed -- see data/*/README.md
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+data/reference/*
+!data/reference/README.md
+
+# PLINK binaries (platform specific, GPL-licensed; install them separately)
+plink2
+plink2_*/
+vcf_subset
+*.nosex

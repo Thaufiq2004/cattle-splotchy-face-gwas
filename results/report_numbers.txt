@@ -1,0 +1,33 @@
+PRIMARY ANALYSIS (Firth, PC1-PC3)
+  SNPs tested                     : 35048
+  Bonferroni threshold            : 1.43e-06  (-log10 = 5.85)
+  Significant SNPs                : 37  on chr [22], 31,571,967-32,417,171
+  Lowest P                        : 9.4e-10 at chr22:31,655,675
+  Best -log10P outside chr22      : 4.80
+  OR range, significant SNPs      : 29.4 - 394.1
+  lambda (all / excluding chr22)  : 1.476 / 1.460
+  After genomic control           : 13 significant, lowest P 4.1e-07
+  chr22:31,651,379                P = 3.8e-08, OR = 394.1
+  chr22:31,651,404                P = 1.1e-09, OR = 226.9
+  chr22:31,655,675                P = 9.4e-10, OR = 124.1
+
+RELATIVES REMOVED (KING cutoff 0.177)
+  lambda                          : 1.304
+  Significant SNPs                : 27, lowest P 2.1e-07
+
+SENSITIVITY ANALYSES
+  Logistic, no covariates (124 animals)    top 31,651,379 P=1.3e-11; 31,651,379 P=1.3e-11; 31,651,404 P=5.4e-11
+  Logistic + PC1-PC3 (124 animals)         top 31,655,675 P=2.6e-09; 31,651,379 P=4.6e-07; 31,651,404 P=2.1e-08
+  Duplicate removed, PC1-PC3 (122)         top 31,655,675 P=1.9e-09; 31,651,379 P=2.9e-07; 31,651,404 P=8.8e-09
+
+GENOTYPE TABLES (counted allele = A; 1 = heterozygous, 2 = homozygous A)
+  22:31651379:G:A:28851_A
+    22:31651379:G:A:28851_A   1   2
+    Splotchy                       
+    case                     30   3
+    control                   2  87
+  22:31651404:G:A:28852_A
+    22:31651404:G:A:28852_A   1   2
+    Splotchy                       
+    case                     31   2
+    control                   3  86

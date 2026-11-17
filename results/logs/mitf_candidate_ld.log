@@ -1,0 +1,72 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/processed/splotchy_qc_unique
+  --chr-set 29
+  --ld 22:31651379:G:A:28851 22:31651404:G:A:28852
+  --out results/qc/mitf_candidate_ld
+  --remove /dev/fd/11
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 10:03:20 2026
+
+Random number seed: 1792037000
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+124 samples (0 females, 0 males, 124 ambiguous; 124 founders) loaded from
+data/processed/splotchy_qc_unique.fam.
+35048 variants loaded from data/processed/splotchy_qc_unique.bim.
+Note: No phenotype data present.
+--remove: 122 samples remaining.
+122 samples (0 females, 0 males, 122 ambiguous; 122 founders) remaining after
+main filters.
+Calculating allele frequencies... done.
+
+--ld 22:31651379:G:A:28851 22:31651404:G:A:28852:
+
+22:31651379:G:A:28851 alleles:
+  MAJOR = REF = A
+  MINOR = G
+22:31651404:G:A:28852 alleles:
+  MAJOR = REF = A
+  MINOR = G
+
+122 valid samples; 32 het pairs statistically phased.
+Multiple phasing solutions; sample size, HWE, or random mating assumption may
+be violated.
+
+HWE exact test p-values
+-----------------------
+  22:31651379:G:A:28851: 0.219085
+  22:31651404:G:A:28852: 0.124048
+
+Solution #1:
+  r^2 = 0.0244385    |D'| = 1
+
+        Frequencies      :       22:31651404:G:A:28852
+  (expectations under LE)          MAJOR       MINOR
+                                 ----------  ----------
+                           MAJOR  0.729508    0.139344
+                                 (0.747783)  (0.121070)
+     22:31651379:G:A:28851
+                           MINOR  0.131148    0
+                                 (0.112873)  (0.018275)
+
+  Major alleles are out of phase with each other.
+
+Solution #2 (best likelihood):
+  r^2 = 0.932297    |D'| = 1
+
+        Frequencies      :       22:31651404:G:A:28852
+  (expectations under LE)          MAJOR       MINOR
+                                 ----------  ----------
+                           MAJOR  0.860656    0.008197
+                                 (0.747783)  (0.121070)
+     22:31651379:G:A:28851
+                           MINOR  0           0.131148
+                                 (0.112873)  (0.018275)
+
+  Major alleles are in phase with each other.
+
+
+End time: Thu Oct 15 10:03:20 2026

@@ -1,0 +1,5 @@
+# Python packages used by the scripts (pin the versions you used with `pip freeze` before release)
+numpy
+pandas
+scipy
+matplotlib

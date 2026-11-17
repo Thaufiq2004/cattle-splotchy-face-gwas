@@ -1,0 +1,29 @@
+PLINK v2.0.0-a.7.12 M1 (12 Oct 2026)
+Options in effect:
+  --bfile data/raw/splotchy_GWAS_geno_set
+  --chr-set 29
+  --freq
+  --missing
+  --out results/qc/splotchy_initial
+
+Hostname: [redacted]
+Working directory: [redacted]
+Start time: Thu Oct 15 05:56:59 2026
+
+Random number seed: 1792022219
+8192 MiB RAM detected; reserving 4096 MiB for main workspace.
+Using up to 8 compute threads.
+128 samples (0 females, 0 males, 128 ambiguous; 128 founders) loaded from
+data/raw/splotchy_GWAS_geno_set.fam.
+41534 variants loaded from data/raw/splotchy_GWAS_geno_set.bim.
+Note: No phenotype data present.
+Calculating sample missingness rates... done.
+Calculating allele frequencies... done.
+--freq: Allele frequencies (founders only) written to
+results/qc/splotchy_initial.afreq .
+--missing: Sample missing data report written to
+results/qc/splotchy_initial.smiss .
+--missing: Variant missing data report written to
+results/qc/splotchy_initial.vmiss .
+
+End time: Thu Oct 15 05:56:59 2026
