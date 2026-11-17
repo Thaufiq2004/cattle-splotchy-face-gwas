@@ -5,12 +5,11 @@ type: software
 authors:
   - family-names: "Thaufiq"
     given-names: "Md."
-    # affiliation: "YOUR INSTITUTION"                      # TODO: add (optional)
-    # orcid: "https://orcid.org/0000-0000-0000-0000"       # TODO: add (recommended)
+    # affiliation: "Bangladesh Agricultural University"
+    
 version: 1.0.0
 date-released: 2026-11-18
-repository-code: "https://github.com/YOUR-USERNAME/cattle-splotchy-face-gwas"   # TODO: replace after creating the repo
-# doi: "10.5281/zenodo.XXXXXXX"                            # TODO: add after Zenodo archiving (see README)
+repository-code: "https://github.com/Thaufiq2004/cattle-splotchy-face-gwas"
 license: MIT
 keywords:
   - GWAS
