@@ -100,12 +100,14 @@ and documents each step. Findings here should be read together with, not instead
 Thaufiq, M. (2026). Splotchy-face GWAS in cattle: reanalysis of public data identifies a single locus at MITF (Version 1.0.0) [Computer software]. https://github.com/Thaufiq2004/cattle-splotchy-face-gwas
 
 ```bibtex
-@software{thaufiq2026splotchy,
-  author  = {Thaufiq, Md.},
-  title   = {Splotchy-face GWAS in cattle: reanalysis of public data identifies a single locus at MITF},
-  year    = {2026},
-  version = {1.0.0},
-  url     = {https://github.com/Thaufiq2004/cattle-splotchy-face-gwas}
+@software{Thaufiq_Splotchy-face_GWAS_in_2026,
+author = {Thaufiq, Md.},
+license = {MIT},
+month = nov,
+title = {{Splotchy-face GWAS in cattle: reanalysis of public data identifies a single locus at MITF}},
+url = {https://github.com/Thaufiq2004/cattle-splotchy-face-gwas},
+version = {1.0.0},
+year = {2026}
 }
 ```
 
